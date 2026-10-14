@@ -58,8 +58,8 @@ export function ProductCard({
         <span className={`warm relative block ${aspect} ${feature ? "min-h-0 flex-1" : ""} overflow-hidden rounded-t-[var(--radius-card)]`}>
           <Image src={p.image.url} alt={p.image.altText ?? p.title} fill sizes={sizes} className="dip-img object-cover" />
         </span>
-        <span className={`dip-label flex flex-col gap-1 p-4 pr-16 sm:p-5 sm:pr-16 ${feature ? "flex-none sm:p-7 sm:pr-20" : "flex-1"}`}>
-          <H className={feature ? "text-[1.6rem] leading-tight sm:text-[2.2rem]" : "text-[1.2rem] leading-tight sm:text-[1.35rem]"}>
+        <span className={`dip-label flex flex-col gap-1 p-3.5 sm:p-5 sm:pr-16 ${feature ? "flex-none sm:p-7 sm:pr-20" : "flex-1"}`}>
+          <H className={feature ? "text-[1.6rem] leading-tight sm:text-[2.2rem]" : "text-[1.12rem] leading-tight sm:text-[1.35rem]"}>
             {p.name}
           </H>
           {showShort && <span className={`dip-muted line-clamp-2 text-cocoa-700 ${feature ? "text-base sm:text-lg" : "text-sm"}`}>{p.short}</span>}
@@ -68,7 +68,7 @@ export function ProductCard({
       </Link>
       <Sticker badge={p.badge} className="absolute top-3 left-3 z-[3]" />
       {canQuickAdd && (
-        <span className="absolute right-3 bottom-3 z-[3] sm:right-4 sm:bottom-4">
+        <span className="absolute top-2.5 right-2.5 z-[3] sm:top-auto sm:right-4 sm:bottom-4">
           <QuickAdd line={lineFor(p)} label={p.name} />
         </span>
       )}

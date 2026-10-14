@@ -40,7 +40,7 @@ export default function WorkshopsPage() {
           <h2 className="display text-[clamp(2.4rem,1.4rem+3.4vw,4.5rem)]">What they&apos;ll make</h2>
           <ul className="mt-8 grid grid-cols-3 gap-3">
             {w.makes.map((m) => (
-              <li key={m} className="grid aspect-square place-items-center rounded-[var(--radius-card)] bg-caramel-500 p-3 text-center font-display text-xl font-semibold text-cocoa-950 [font-variation-settings:'SOFT'_100]">
+              <li key={m} className="grid aspect-square min-w-0 place-items-center rounded-[var(--radius-card)] bg-caramel-500 p-2 text-center font-display text-base leading-tight font-semibold break-words sm:p-3 sm:text-xl text-cocoa-950 [font-variation-settings:'SOFT'_100]">
                 {m}
               </li>
             ))}

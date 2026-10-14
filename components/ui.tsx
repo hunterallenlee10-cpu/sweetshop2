@@ -11,12 +11,21 @@ export function Container({ children, className = "", ...rest }: { children?: Re
   );
 }
 
-export function Breadcrumbs({ items, dark = false }: { items: { name: string; path: string }[]; dark?: boolean }) {
+export function Breadcrumbs({
+  items,
+  dark = false,
+  onColor = false,
+}: {
+  items: { name: string; path: string }[];
+  dark?: boolean;
+  /** On a saturated light field (caramel), muted cocoa fails contrast: use full-strength text. */
+  onColor?: boolean;
+}) {
   const all = [{ name: "Home", path: "/" }, ...items];
   return (
     <>
       <nav aria-label="Breadcrumb" className="text-sm">
-        <ol className={`flex flex-wrap items-center gap-1 ${dark ? "text-cream-100" : "text-cocoa-700"}`}>
+        <ol className={`flex flex-wrap items-center gap-1 ${dark ? "text-cream-100" : onColor ? "text-cocoa-950" : "text-cocoa-700"}`}>
           {all.map((it, i) => (
             <li key={it.path} className="flex items-center gap-1">
               {i > 0 && <CaretRight size={12} weight="bold" aria-hidden className="opacity-60" />}
@@ -67,10 +76,10 @@ export function PageHero({
     <section className={tones[tone]}>
       <Container className={`grid gap-10 py-12 lg:py-16 ${image ? "lg:grid-cols-12 lg:items-center" : ""}`}>
         <div className={image ? "lg:col-span-7" : ""}>
-          <Breadcrumbs items={crumbs} dark={dark} />
+          <Breadcrumbs items={crumbs} dark={dark} onColor={tone === "caramel"} />
           <h1 className="display mt-6 max-w-[18ch] text-[clamp(2.8rem,1.5rem+4.8vw,5.75rem)]">{title}</h1>
           {intro && (
-            <div className={`measure mt-6 text-lg sm:text-xl ${dark ? "text-cream-100" : "text-cocoa-700"}`}>{intro}</div>
+            <div className={`measure mt-6 text-lg sm:text-xl ${dark ? "text-cream-100" : tone === "caramel" ? "text-cocoa-950" : "text-cocoa-700"}`}>{intro}</div>
           )}
           {children && <div className="mt-8">{children}</div>}
         </div>

@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Fraunces, Figtree } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
@@ -10,14 +10,25 @@ import { JsonLd, localBusinessLd } from "@/components/JsonLd";
 import { seasons } from "@/lib/catalog";
 import { site, SITE_URL, NOINDEX } from "@/lib/site";
 
-const fraunces = Fraunces({
-  subsets: ["latin"],
-  axes: ["opsz", "SOFT"],
-  style: ["normal", "italic"],
+/*
+ * Self-hosted Latin subsets (SIL OFL). Fraunces is pinned to SOFT=100 and weights 500-700, the only values the
+ * design uses: 36 KB instead of 121 KB for the full opsz/SOFT/wght variable font.
+ */
+const fraunces = localFont({
+  src: [
+    { path: "./fonts/fraunces-soft.woff2", weight: "500 700", style: "normal" },
+    { path: "./fonts/fraunces-soft-italic.woff2", weight: "600", style: "italic" },
+  ],
   variable: "--font-fraunces",
   display: "swap",
+  fallback: ["Iowan Old Style", "Georgia", "serif"],
 });
-const figtree = Figtree({ subsets: ["latin"], variable: "--font-figtree", display: "swap" });
+const figtree = localFont({
+  src: [{ path: "./fonts/figtree.woff2", weight: "300 900", style: "normal" }],
+  variable: "--font-figtree",
+  display: "swap",
+  fallback: ["ui-sans-serif", "system-ui", "sans-serif"],
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

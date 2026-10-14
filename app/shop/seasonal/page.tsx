@@ -44,7 +44,7 @@ export default function SeasonalPage() {
             <ul className="grid grid-cols-2 gap-3 sm:gap-5 md:grid-cols-3 xl:grid-cols-4">
               {getProducts(s.handles).map((p) => (
                 <li key={p.handle}>
-                  <ProductCard product={p} className="h-full" aspect="aspect-square" />
+                  <ProductCard product={p} className="h-full" aspect="aspect-square" headingLevel="h2" />
                 </li>
               ))}
             </ul>

@@ -32,12 +32,12 @@ const KIND_ORDER: [string, string][] = [
   ["dipped cookies", "Dipped Oreos"],
 ];
 
-function Grid({ items, eager = 0 }: { items: Product[]; eager?: number }) {
+function Grid({ items, level }: { items: Product[]; level: "h2" | "h3" }) {
   return (
     <ul className="grid grid-cols-2 gap-3 sm:gap-5 md:grid-cols-3 xl:grid-cols-4">
-      {items.map((p, i) => (
+      {items.map((p) => (
         <li key={p.handle}>
-          <ProductCard product={p} className="h-full" aspect="aspect-square" headingLevel={i < eager ? "h2" : "h3"} />
+          <ProductCard product={p} className="h-full" aspect="aspect-square" headingLevel={level} />
         </li>
       ))}
     </ul>
@@ -113,13 +113,13 @@ async function CollectionView({ params }: Pick<PageProps<"/shop/[collection]">, 
                   <h2 id={`k-${kind}`} className="mb-6 text-[clamp(1.8rem,1.3rem+1.6vw,2.6rem)]">
                     {label}
                   </h2>
-                  <Grid items={group} />
+                  <Grid items={group} level="h3" />
                 </section>
               );
             })}
           </div>
         ) : (
-          <Grid items={items} />
+          <Grid items={items} level="h2" />
         )}
       </Container>
 

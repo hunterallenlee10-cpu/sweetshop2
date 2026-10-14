@@ -138,7 +138,7 @@ export function CartDrawer() {
                         <label
                           key={v}
                           className={`flex cursor-pointer items-center gap-3 rounded-[14px] border-2 px-3 py-2.5 transition-colors has-[:focus-visible]:outline has-[:focus-visible]:outline-3 has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-apple-600 ${
-                            fulfillment === v ? "border-cocoa-900 bg-cream-50" : "border-cream-200 hover:border-cocoa-500"
+                            fulfillment === v ? "border-cocoa-900 bg-cocoa-900 text-cream-50" : "border-cream-200 bg-cream-50 hover:border-cocoa-500"
                           } ${disabled ? "cursor-not-allowed opacity-50" : ""}`}
                         >
                           <input
@@ -153,7 +153,7 @@ export function CartDrawer() {
                           <Icon size={22} aria-hidden />
                           <span className="leading-tight">
                             <span className="block font-bold">{label}</span>
-                            <span className="text-xs text-cocoa-700">{sub}</span>
+                            <span className={`text-xs ${fulfillment === v ? "text-caramel-200" : "text-cocoa-700"}`}>{sub}</span>
                           </span>
                         </label>
                       );

@@ -9,7 +9,8 @@ export function Wordmark({ tone = "light", size = "md" }: { tone?: "light" | "da
   const sub = tone === "light" ? "text-caramel-400" : "text-apple-600";
   const big = size === "lg";
   return (
-    <span className="inline-flex flex-col leading-none select-none" aria-label="My Favorite Sweet Shoppe">
+    <span className="inline-flex flex-col leading-none select-none">
+      <span className="sr-only">My Favorite Sweet Shoppe</span>
       <span
         aria-hidden
         className={`font-display italic ${sub} ${big ? "text-2xl" : "text-[0.95rem]"} [font-variation-settings:'SOFT'_100,'opsz'_24] font-semibold tracking-tight`}

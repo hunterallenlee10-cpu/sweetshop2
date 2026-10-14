@@ -5,7 +5,7 @@ import cutouts from "@/data/cutouts.json";
 
 export default function NotFound() {
   return (
-    <Container className="grid min-h-[70vh] items-center gap-10 py-16 md:grid-cols-2">
+    <Container className="grid min-h-[70vh] items-center gap-10 overflow-hidden py-16 md:grid-cols-2">
       <div>
         <h1 className="display text-[clamp(3rem,1.6rem+5vw,6rem)]">This one fell off the stick.</h1>
         <p className="mt-5 text-xl text-cocoa-700">We couldn&apos;t find that page. Maybe it moved when we rearranged the case.</p>

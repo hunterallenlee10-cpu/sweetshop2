@@ -16,7 +16,13 @@ export function HeroMotion() {
     let cleanup = () => {};
     let cancelled = false;
 
-    (async () => {
+    // Scroll effects only matter once the visitor moves, so GSAP loads on first intent, not during page load.
+    const intents = ["scroll", "wheel", "touchstart", "pointerdown", "keydown"] as const;
+    const start = () => {
+      intents.forEach((t) => window.removeEventListener(t, start));
+      void load();
+    };
+    const load = async () => {
       const [{ gsap }, { ScrollTrigger }] = await Promise.all([import("gsap"), import("gsap/ScrollTrigger")]);
       if (cancelled) return;
       gsap.registerPlugin(ScrollTrigger);
@@ -41,7 +47,9 @@ export function HeroMotion() {
         gsap.to("[data-apple-shadow]", { scaleX: 0.8, opacity: 0.6, ease: "none", scrollTrigger: st });
       }, hero);
       cleanup = () => ctx.revert();
-    })();
+    };
+    intents.forEach((t) => window.addEventListener(t, start, { once: true, passive: true }));
+    if (window.scrollY > 0) start();
 
     const onChange = () => {
       if (mq.matches) cleanup();
@@ -49,6 +57,7 @@ export function HeroMotion() {
     mq.addEventListener("change", onChange);
     return () => {
       cancelled = true;
+      intents.forEach((t) => window.removeEventListener(t, start));
       mq.removeEventListener("change", onChange);
       cleanup();
     };
