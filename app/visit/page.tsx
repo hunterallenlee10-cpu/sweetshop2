@@ -23,7 +23,7 @@ export default function VisitPage() {
           <div>
             <h2 className="text-2xl">In the shop</h2>
             <p className="mt-2 text-cocoa-700">
-              The full case of caramel apples, hand-dipped chocolates, fresh fudge and a wall of nostalgic candy you won&apos;t find online.
+              The full case of caramel apples, hand-dipped chocolates, fresh fudge and nostalgic candy you won&apos;t find online.
             </p>
           </div>
           <div>
