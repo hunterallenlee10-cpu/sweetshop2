@@ -1,0 +1,340 @@
+{
+  "_source": "Copy adapted from myfavoritesweetshoppe.com: /products/the-caramel-apple-club-3-apple-subscription, /blogs/my-favorites (Club + I Like Pie posts), /pages/corporate-gifting, /pages/chocolate-dipped-bottles-of-wine, /pages/chocolate-birthday-parties, /collections/kids-workshops, /pages/fundraising, /pages/send-sweetness-share-support, /pages/about-us. Items tagged [PLACEHOLDER] need the owner's input.",
+  "club": {
+    "productHandle": "caramel-apple-club",
+    "singleHandle": "caramel-apple-club-single",
+    "headline": "The sweetest club you'll ever join.",
+    "intro": "Three handmade gourmet caramel apples, handpicked for the season and delivered to your door. Shipping is included.",
+    "price": "39.95",
+    "singlePrice": "19.95",
+    "steps": [
+      {
+        "title": "Pick your rhythm",
+        "body": "Monthly, every other month, or once a season. Change it whenever you like."
+      },
+      {
+        "title": "We pick the apples",
+        "body": "Every box is a surprise: caramel and chocolate drizzles, candy-covered creations and limited flavors you can't get anywhere else."
+      },
+      {
+        "title": "Open the box",
+        "body": "Three apples, shipped to your door with shipping included. Cancel or pause anytime."
+      }
+    ],
+    "cadences": [
+      {
+        "id": "monthly",
+        "label": "Monthly",
+        "detail": "12 boxes a year",
+        "sellingPlanId": "gid://shopify/SellingPlan/691579158712"
+      },
+      {
+        "id": "bimonthly",
+        "label": "Every other month",
+        "detail": "6 boxes a year",
+        "sellingPlanId": "gid://shopify/SellingPlan/691579322552"
+      },
+      {
+        "id": "seasonal",
+        "label": "Seasonally",
+        "detail": "4 boxes a year",
+        "sellingPlanId": "gid://shopify/SellingPlan/691579355320"
+      }
+    ],
+    "inTheBox": [
+      "3 gourmet caramel apples on Granny Smiths, dipped in our homemade caramel",
+      "Flavors chosen for the season, from classic caramel to limited editions",
+      "Packed to travel, with shipping included in the price"
+    ],
+    "sampleBoxNote": "[PLACEHOLDER] Example box contents for this season. The shop picks flavors per shipment.",
+    "faq": [
+      {
+        "q": "How much does it cost?",
+        "a": "The 3-apple box is $39.95 per delivery, shipping included. Prefer a smaller box? The single-apple option is $19.95 per delivery."
+      },
+      {
+        "q": "Can I choose my flavors?",
+        "a": "Part of the fun is the surprise. We handpick each box for the season, from classic caramel to over-the-top creations."
+      },
+      {
+        "q": "Can I pause or cancel?",
+        "a": "Yes. You can cancel or pause anytime."
+      },
+      {
+        "q": "Does it make a good gift?",
+        "a": "It's perfect for gifting, or for keeping all to yourself. Add a gift message in the cart and we'll include it."
+      },
+      {
+        "q": "Where do you ship?",
+        "a": "[PLACEHOLDER] Confirm shipping regions and which days apples ship so they arrive fresh."
+      },
+      {
+        "q": "Is there a discount for monthly members?",
+        "a": "[PLACEHOLDER] The live store has subscription discounts configured per cadence. Confirm the current pricing before launch."
+      }
+    ],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0512/7523/5512/files/9240896C-7090-41C4-B48D-ED3F0E95D713.jpg?v=1726165816",
+        "width": 3024,
+        "height": 4032,
+        "alt": "Caramel Apple Club box with three gourmet apples"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0512/7523/5512/files/4D33436E-FC3D-4A5A-9841-08A6465CEE84.jpg?v=1726165816",
+        "width": 3024,
+        "height": 4032,
+        "alt": "Gourmet caramel apples packed for shipping"
+      }
+    ]
+  },
+  "gifting": {
+    "corporate": {
+      "headline": "Gifts that look like they came from your company and taste like they came from ours.",
+      "intro": "For more than 10 years we've partnered with companies from coast to coast to create custom gifts tailored to your goals.",
+      "offerings": [
+        {
+          "title": "Custom logo chocolate bars",
+          "body": "Your logo, in chocolate, on a bar or a box."
+        },
+        {
+          "title": "Custom branded chocolate boxes",
+          "body": "Assortments packaged around your brand, message or theme."
+        },
+        {
+          "title": "Custom branded Oreos",
+          "body": "Hand-dipped Oreos printed with your logo or event art."
+        },
+        {
+          "title": "Gift baskets",
+          "body": "Curated baskets of hand-dipped favorites and caramel apples."
+        },
+        {
+          "title": "Event favors",
+          "body": "Small, sweet and on-brand for conferences, weddings and launches."
+        },
+        {
+          "title": "Holiday & occasion gifts",
+          "body": "Client and employee gifts for the holidays, milestones and thank-yous."
+        }
+      ],
+      "catalogUrl": "https://drive.google.com/file/d/1WGUZ-siLLhuWqcgEJ0eEkNyi7hP_e68z/view?usp=sharing",
+      "catalogLabel": "Holiday 2025 catalog",
+      "samplesUrl": "https://drive.google.com/file/d/1qJdhPwJoCoDSd25g4psea0CWiwWPVGyO/view?usp=sharing",
+      "email": "nina@myfavoritesweetshoppe.com",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0512/7523/5512/files/MediumGift_MFSS_1.jpg?v=1695080935",
+        "width": 3000,
+        "height": 2003,
+        "alt": "Custom logo chocolate bar gift box"
+      },
+      "clientLogosNote": "[PLACEHOLDER] Client logos or a short client list, with permission."
+    },
+    "wine": {
+      "headline": "Yes, we dip wine bottles in chocolate.",
+      "intro": "The gift for the person who has everything. Bring us your favorite bottle, pick a design, and pick it up in just 5 days.",
+      "steps": [
+        {
+          "title": "Bring a bottle",
+          "body": "Drop off your favorite bottle at the shoppe. We do not sell wine, so you must provide it."
+        },
+        {
+          "title": "Pick a design",
+          "body": "Choose your chocolate and decoration. We add a ribbon and dip it by hand."
+        },
+        {
+          "title": "Pick it up",
+          "body": "Your dipped bottle is ready in just 5 days."
+        }
+      ],
+      "pricing": [
+        {
+          "label": "Standard bottle dipping",
+          "price": "29.98"
+        },
+        {
+          "label": "Large 1.5L bottle or wedding",
+          "price": "39.95"
+        }
+      ],
+      "videoId": "fpk-pcsM94I",
+      "image": {
+        "url": "https://myfavoritesweetshoppe.com/cdn/shop/articles/TripChocolateBottles_1.jpg?v=1717094289",
+        "width": 2000,
+        "height": 3008,
+        "alt": "Wine bottles dipped in milk, white and dark chocolate"
+      }
+    },
+    "photoTreats": {
+      "headline": "Their face, on a chocolate-covered Oreo.",
+      "intro": "Custom photo Oreos for graduations, birthdays, showers and company events. Dipped in chocolate and printed with your photo.",
+      "steps": [
+        {
+          "title": "Place your order",
+          "body": "Add Custom Photo Oreos to your cart for in-store pickup."
+        },
+        {
+          "title": "Send your photo",
+          "body": "We'll email you instructions to send your photo and collect the details."
+        },
+        {
+          "title": "Pick them up",
+          "body": "Collect your treats at 237 E Main Street."
+        }
+      ],
+      "productHandle": "custom-photo-oreos",
+      "pricingNote": "[PLACEHOLDER] Per-dozen price and lead time for custom photo Oreos.",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0512/7523/5512/files/IMG_1617.jpg?v=1712679281",
+        "width": 2781,
+        "height": 2781,
+        "alt": "Chocolate covered Oreos printed with a graduate's photo"
+      }
+    },
+    "givingBack": {
+      "headline": "Send sweetness, share support.",
+      "body": "In 2026 we're partnering with a different Pittsburgh nonprofit each month, donating a portion of every Care Package sold.",
+      "partner": {
+        "name": "Hope Grows",
+        "url": "https://hopegrows.org/",
+        "note": "Healing and restorative gardens offering respite for caregivers in the Pittsburgh area."
+      },
+      "partnerNote": "[PLACEHOLDER] Update this month's nonprofit partner."
+    }
+  },
+  "experiences": {
+    "party": {
+      "headline": "Junior Chocolatier Parties",
+      "intro": "A private party in our party room at the Carnegie shoppe, where your guests learn to make four Sweet Shoppe specialties.",
+      "price": "350",
+      "deposit": "100",
+      "includes": [
+        "Up to 10 guests, ages 6 and up",
+        "1.5 hours in our private party room",
+        "An apron for every guest to wear and take home",
+        "Each guest dips and decorates a marshmallow pop, a pretzel rod, an Oreo and a Chips Ahoy in white chocolate, with toppings picked by the guest of honor",
+        "A 4 oz. bag of our nostalgic candy",
+        "A signed, dated Junior Chocolatier certificate"
+      ],
+      "addOns": [
+        {
+          "label": "Additional guests, up to 15",
+          "price": "14.50 each"
+        },
+        {
+          "label": "Additional 30 minutes",
+          "price": "50"
+        },
+        {
+          "label": "Larger groups",
+          "price": "By arrangement"
+        }
+      ],
+      "slots": [
+        {
+          "days": "Friday & Saturday evenings",
+          "times": "6:30 or 7pm"
+        },
+        {
+          "days": "Sunday",
+          "times": "11am, 1pm or 3pm"
+        }
+      ],
+      "notes": "You're welcome to bring decorations, food and cake. Just let us know in advance so we can plan timing. A non-refundable $100 deposit secures your date.",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0512/7523/5512/files/Junior_Chocolatier_Private_Party.jpg?v=1754914578",
+        "width": 3024,
+        "height": 4032,
+        "alt": "Junior Chocolatier private party at My Favorite Sweet Shoppe"
+      }
+    },
+    "workshops": {
+      "headline": "Kids' Workshops",
+      "intro": "A behind-the-scenes tour, a lesson in safety and cleanliness, and three Sweet Shoppe treats your kid makes and takes home. Then candy bingo.",
+      "price": "25",
+      "duration": "1.5 hours, 10:30am to noon",
+      "ages": "Best for ages 5 and up",
+      "makes": [
+        "Oreo pop",
+        "Pretzel rod",
+        "Marshmallow pop"
+      ],
+      "parents": "Parents are welcome to stay. Let us know before the workshop.",
+      "upcoming": [
+        {
+          "date": "[PLACEHOLDER] Next workshop date",
+          "theme": "[PLACEHOLDER] Theme"
+        },
+        {
+          "date": "[PLACEHOLDER] Following workshop date",
+          "theme": "[PLACEHOLDER] Theme"
+        }
+      ],
+      "ticketsUrl": "https://myfavoritesweetshoppe.com/collections/kids-workshops",
+      "imageNote": "[PLACEHOLDER] Photo of a kids' workshop in progress."
+    }
+  },
+  "fundraising": {
+    "headline": "Fundraisers people actually want to buy from.",
+    "intro": "We partner with schools, teams and clubs on fundraisers built around treats that sell themselves.",
+    "products": [
+      {
+        "title": "Gourmet caramel apples",
+        "body": "Coated in our homemade caramel, then rolled in an amazing assortment of toppings."
+      },
+      {
+        "title": "Homemade fudge",
+        "body": "Absolutely mouthwatering, and it makes a great gift."
+      },
+      {
+        "title": "$10 gift certificates",
+        "body": "For supporters who aren't sure what they want yet, but still want to help."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Tell us about your group",
+        "body": "Send the form below or call. We'll walk you through the program and timeline."
+      },
+      {
+        "title": "Share your online store",
+        "body": "Your group gets its own online collection. Families note their seller at checkout so every order is credited."
+      },
+      {
+        "title": "We make, you deliver",
+        "body": "We hand-dip everything fresh. Orders ship to supporters or come back to your group for distribution."
+      }
+    ],
+    "partners": [
+      {
+        "name": "Guardian Angel Academy",
+        "detail": "Fall fundraiser"
+      },
+      {
+        "name": "SCHS Ski Club",
+        "detail": "Caramel apple fundraiser"
+      },
+      {
+        "name": "Revolution All Star Cheer",
+        "detail": "Fundraising for Nationals"
+      }
+    ],
+    "overviewUrl": "https://drive.google.com/file/d/1miRK4Fv9l-ZjGjnYbjTHbJWp2ELdtlvj/view?usp=sharing",
+    "profitNote": "[PLACEHOLDER] What percentage or dollar amount per item goes back to the group.",
+    "image": {
+      "url": "https://cdn.shopify.com/s/files/1/0512/7523/5512/collections/1000007585.jpg?v=1790298723",
+      "width": 502,
+      "height": 516,
+      "alt": "Revolution All Star Cheer fundraiser"
+    }
+  },
+  "about": {
+    "headline": "Main Street's chocolate and candy store since 2014.",
+    "body": [
+      "In 2014, Nina Midgley, with her parents Terri & Ed Midgley, established My Favorite Sweet Shoppe on the principle of giving our local community products and customer service that are second to none.",
+      "We hand-dip our own chocolates and make our caramel in small batches, and we partner with the best vendors so every guest finds something to satisfy their sweet tooth. Our homemade lineup includes gourmet caramel apples, fresh fudge, hand-dipped chocolates and custom-designed treats.",
+      "We're proud to be the area's local chocolate and candy store, serving up a dose of nostalgia with every purchase."
+    ],
+    "teamPhotoNote": "[PLACEHOLDER] Photo of Nina and the family at the counter."
+  }
+}

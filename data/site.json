@@ -1,0 +1,67 @@
+{
+  "_source": "Facts from myfavoritesweetshoppe.com (footer, /pages/about-us, /pages/fundraising) and the redesign brief. Anything not verifiable is marked [PLACEHOLDER].",
+  "name": "My Favorite Sweet Shoppe",
+  "legalName": "My Favorite Sweet Shoppe Pittsburgh",
+  "url": "https://myfavoritesweetshoppe.com",
+  "shopifyStoreUrl": "https://myfavoritesweetshoppe.com",
+  "tagline": "Handmade chocolates and gourmet caramel apples on Main Street in Carnegie, PA.",
+  "founded": "2014",
+  "founders": "Nina Midgley, with her parents Terri & Ed Midgley",
+  "address": {
+    "street": "237 E Main Street",
+    "city": "Carnegie",
+    "region": "PA",
+    "postalCode": "15106",
+    "country": "US",
+    "neighborhood": "just outside Pittsburgh"
+  },
+  "geo": { "lat": 40.4087673, "lng": -80.0848138 },
+  "phone": { "display": "412-564-5416", "tel": "+14125645416" },
+  "email": "myfavoritesweetshoppe@gmail.com",
+  "corporateEmail": "nina@myfavoritesweetshoppe.com",
+  "social": {
+    "facebook": "https://www.facebook.com/MyFavoriteSweetShoppe",
+    "instagram": "https://www.instagram.com/myfavoritesweetshoppe",
+    "instagramHandle": "@myfavoritesweetshoppe",
+    "linkedin": "https://www.linkedin.com/company/my-favorite-sweet-shoppe"
+  },
+  "timezone": "America/New_York",
+  "hours": [
+    { "day": 0, "name": "Sunday", "open": null, "close": null },
+    { "day": 1, "name": "Monday", "open": null, "close": null },
+    { "day": 2, "name": "Tuesday", "open": "12:00", "close": "18:00" },
+    { "day": 3, "name": "Wednesday", "open": "12:00", "close": "18:00" },
+    { "day": 4, "name": "Thursday", "open": "12:00", "close": "18:00" },
+    { "day": 5, "name": "Friday", "open": "12:00", "close": "18:00" },
+    { "day": 6, "name": "Saturday", "open": "12:00", "close": "18:00" }
+  ],
+  "hoursSummary": "Tue to Sat, noon to 6pm. Closed Sunday & Monday.",
+  "hoursNote": "Seasonal hours vary.",
+  "press": [
+    {
+      "outlet": "Tribune-Review",
+      "title": "Carnegie candy store gets big break in area Market Districts",
+      "url": "https://community.triblive.com/news/3765974"
+    },
+    {
+      "outlet": "Pittsburgh Post-Gazette",
+      "title": "Pittsburgh food businesses angle for their big break at the summer Fancy Food Show in New York City",
+      "url": "https://www.post-gazette.com/life/food/2024/07/01/summer-fancy-food-show-speciality-food-association-pittsburgh/stories/202406260094"
+    },
+    {
+      "outlet": "Whirl Magazine",
+      "title": "13 Under 30, featuring owner Nina Midgley",
+      "url": "https://issuu.com/whirlmagazine/docs/whirl_march_issuu_use"
+    },
+    {
+      "outlet": "Tribune-Review",
+      "title": "Magazine recognizes My Favorite Sweet Shoppe owner",
+      "url": "https://archive.triblive.com/news/smith-magazine-recognizes-my-favorite-sweet-shoppe-owner/"
+    }
+  ],
+  "storefrontPhoto": {
+    "placeholder": true,
+    "note": "[PLACEHOLDER] Storefront exterior photo of 237 E Main Street. None exists on the current site."
+  },
+  "allergyStatement": "Menu items may contain or come into contact with wheat, eggs, peanuts and tree nuts. For more information, please speak with a manager. My Favorite Sweet Shoppe cannot guarantee that any of our products are safe for those individuals with allergies."
+}

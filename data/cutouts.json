@@ -1,0 +1,92 @@
+{
+  "caramel-apple": {
+    "src": "/cutouts/caramel-apple.webp",
+    "width": 503,
+    "height": 900
+  },
+  "candy-apple": {
+    "src": "/cutouts/candy-apple.webp",
+    "width": 561,
+    "height": 900
+  },
+  "i-like-apple-pie": {
+    "src": "/cutouts/i-like-apple-pie.webp",
+    "width": 518,
+    "height": 900
+  },
+  "triple-chocolate": {
+    "src": "/cutouts/triple-chocolate.webp",
+    "width": 549,
+    "height": 900
+  },
+  "chocolate-caramel-sea-salt": {
+    "src": "/cutouts/chocolate-caramel-sea-salt.webp",
+    "width": 558,
+    "height": 900
+  },
+  "chocolate-covered-pretzel": {
+    "src": "/cutouts/chocolate-covered-pretzel.webp",
+    "width": 611,
+    "height": 900
+  },
+  "snickers": {
+    "src": "/cutouts/snickers.webp",
+    "width": 598,
+    "height": 900
+  },
+  "peanut-butter-paradise": {
+    "src": "/cutouts/peanut-butter-paradise.webp",
+    "width": 644,
+    "height": 900
+  },
+  "heath-heaven": {
+    "src": "/cutouts/heath-heaven.webp",
+    "width": 581,
+    "height": 900
+  },
+  "cookies-and-cream": {
+    "src": "/cutouts/cookies-and-cream.webp",
+    "width": 590,
+    "height": 900
+  },
+  "crunch-bar": {
+    "src": "/cutouts/crunch-bar.webp",
+    "width": 597,
+    "height": 900
+  },
+  "m-and-m": {
+    "src": "/cutouts/m-and-m.webp",
+    "width": 564,
+    "height": 900
+  },
+  "reeses-pieces": {
+    "src": "/cutouts/reeses-pieces.webp",
+    "width": 567,
+    "height": 900
+  },
+  "confetti": {
+    "src": "/cutouts/confetti.webp",
+    "width": 513,
+    "height": 900
+  },
+  "pecan": {
+    "src": "/cutouts/pecan.webp",
+    "width": 587,
+    "height": 900
+  },
+  "pecan-drizzle": {
+    "src": "/cutouts/pecan-drizzle.webp",
+    "width": 651,
+    "height": 900
+  },
+  "peanut": {
+    "src": "/cutouts/peanut.webp",
+    "width": 590,
+    "height": 900
+  },
+  "peanut-chocolate-drizzle": {
+    "src": "/cutouts/peanut-chocolate-drizzle.webp",
+    "width": 516,
+    "height": 900
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "_source": "Collection copy adapted from myfavoritesweetshoppe.com collection descriptions. Product membership is curated: duplicates, fundraiser copies and expired one-offs removed.",
+  "collections": [
+    {
+      "handle": "caramel-apples",
+      "legacyHandle": "gourmet-caramel-apples-pittsburgh",
+      "title": "Gourmet Caramel Apples",
+      "navTitle": "Caramel Apples",
+      "seoTitle": "Gourmet Caramel Apples in Pittsburgh",
+      "seoDescription": "Hand-dipped gourmet caramel apples made in Carnegie, PA, just outside Pittsburgh. Granny Smith apples, homemade caramel, from $7.00. Local pickup or shipping.",
+      "intro": "Crisp, tart Granny Smith apples, hand-dipped in our rich, buttery homemade caramel, then generously coated with chocolate, nuts or candy.",
+      "body": "One batch of our caramel takes about three hours and dips roughly 60 to 70 apples. Pick one up on Main Street, ship a box across the country, or join the Club and let us choose for you.",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0512/7523/5512/files/Apples-Colllection-MFSS.jpg?v=1619751810",
+        "width": 1400,
+        "height": 640,
+        "alt": "A row of gourmet caramel apples with ribbon-tied sticks"
+      },
+      "categories": [
+        "apples"
+      ],
+      "excludeSeasonal": true
+    },
+    {
+      "handle": "hand-dipped-chocolates",
+      "legacyHandle": "hand-dipped-chocolates",
+      "title": "Hand-Dipped Chocolates",
+      "navTitle": "Hand-Dipped Chocolates",
+      "seoTitle": "Hand-Dipped Chocolates from Carnegie, PA",
+      "seoDescription": "Chocolate pretzel twists and rods, dipped Oreos, stuffed twists, buckeyes, cashew caramel patties and our best-selling Mountain Magic Bites. Made by hand in Carnegie, PA.",
+      "intro": "Hand-dipped by our family for yours. Pretzel twists and rods, dipped Oreos, stuffed twists, buckeyes and boxes by the pound.",
+      "body": "Store favorites: the stuffed pretzel twists and Mountain Magic. Singles start at $2, so build a box your way.",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0512/7523/5512/collections/MFSS-HandDipped-Home.jpg?v=1620266580",
+        "width": 1400,
+        "height": 640,
+        "alt": "Hand-dipped chocolate-covered Oreos with chocolate drizzle"
+      },
+      "categories": [
+        "chocolates"
+      ],
+      "excludeSeasonal": true
+    },
+    {
+      "handle": "chocolate-covered-strawberries",
+      "legacyHandle": "valentines-day",
+      "title": "Chocolate Covered Strawberries",
+      "navTitle": "Strawberries",
+      "seoTitle": "Chocolate Covered Strawberries in Pittsburgh",
+      "seoDescription": "Fresh strawberries hand-dipped to order in milk or dark chocolate. Half-pound and one-pound boxes from $19.95, for local pickup in Carnegie, PA.",
+      "intro": "Dipped fresh to order in milk or dark chocolate, then drizzled. Half-pound and one-pound boxes.",
+      "body": "Strawberries are made to order for local pickup or delivery only. We don't ship them. Add your preferred pickup date in the cart notes.",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0512/7523/5512/files/ChocolateCoveredStrawberries.jpg?v=1770148059",
+        "width": 832,
+        "height": 832,
+        "alt": "Dark chocolate covered strawberries with drizzle"
+      },
+      "categories": [
+        "strawberries"
+      ],
+      "excludeSeasonal": true
+    },
+    {
+      "handle": "care-packages",
+      "legacyHandle": "care-packages-gift-baskets",
+      "title": "Care Packages & Gift Baskets",
+      "navTitle": "Care Packages & Gift Baskets",
+      "seoTitle": "Chocolate Care Packages & Gift Baskets, Shipped",
+      "seoDescription": "Curated gift boxes of hand-dipped chocolates and a gourmet caramel apple, shipping included. Send a care package from Carnegie, PA.",
+      "intro": "All-in-one gift boxes of our hand-dipped chocolates and gourmet treats, beautifully packaged. Shipping is included.",
+      "body": "Choose your occasion, add a gift message in the cart, and we'll tuck it inside the box. You can note a delivery timeframe too.",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0512/7523/5512/files/HappyBirthdayCarePackage.jpg?v=1770069058",
+        "width": 6016,
+        "height": 4016,
+        "alt": "Happy Birthday care package with chocolates and a caramel apple"
+      },
+      "categories": [
+        "care-packages"
+      ],
+      "excludeSeasonal": false
+    }
+  ],
+  "seasons": [
+    {
+      "id": "halloween",
+      "months": [
+        9,
+        10
+      ],
+      "navLabel": "Halloween",
+      "title": "Caramel apple season",
+      "headline": "It's caramel apple season.",
+      "intro": "Fresh Granny Smiths, homemade caramel, and a Halloween lineup decorated by hand. Ghosts, mummies, skeletons and a bubbling Witch's Brew.",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0512/7523/5512/collections/HalloweenGroup.jpg?v=1727280013",
+        "width": 4464,
+        "height": 3854,
+        "alt": "The Halloween gourmet caramel apple lineup"
+      },
+      "spotlight": [
+        "ghost",
+        "witchs-brew",
+        "jack-o-lantern",
+        "mummy"
+      ],
+      "handles": [
+        "ghost",
+        "witchs-brew",
+        "jack-o-lantern",
+        "mummy",
+        "skeleton",
+        "melted-skull",
+        "halloween-spirit",
+        "fall-confetti",
+        "monster-marshmallow-pop",
+        "i-like-apple-pie",
+        "caramel-apple-club"
+      ]
+    },
+    {
+      "id": "christmas",
+      "months": [
+        11,
+        12
+      ],
+      "navLabel": "Christmas",
+      "title": "Holidays at the shoppe",
+      "headline": "Wrapped, ribboned and ready to give.",
+      "intro": "Hand-decorated holiday apples, the best-selling Christmas Twist Stack and gift boxes for everyone on your list. If you need it by a date, tell us in the cart notes.",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0512/7523/5512/files/XMas19_PretzelStack-Copy.jpg?v=1700277346",
+        "width": 4016,
+        "height": 6016,
+        "alt": "Christmas pretzel twist stack tied with a bow"
+      },
+      "spotlight": [
+        "christmas-twist-stack",
+        "christmas-tree-apple",
+        "mountain-bark-gift-box",
+        "dozen-decorated-oreo-gift"
+      ],
+      "handles": [
+        "christmas-twist-stack",
+        "christmas-tree-apple",
+        "holiday-drizzle-apple",
+        "frosty-apple",
+        "snowflake-apple",
+        "mountain-bark-gift-box",
+        "dozen-decorated-oreo-gift",
+        "snowman-cookie-gift-pack",
+        "caramel-apple-club",
+        "happy-birthday-care-package"
+      ]
+    },
+    {
+      "id": "valentines",
+      "months": [
+        1,
+        2
+      ],
+      "navLabel": "Valentine's Day",
+      "title": "Valentine's Day",
+      "headline": "Dipped to order, for someone sweet.",
+      "intro": "Chocolate covered strawberry bouquets, a whole pound of Mountain Magic in a heart box, and a care package that ships.",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0512/7523/5512/files/IMG_5916.jpg?v=1737078870",
+        "width": 3024,
+        "height": 4032,
+        "alt": "Valentine's chocolate covered strawberry bouquet"
+      },
+      "spotlight": [
+        "strawberry-bouquet",
+        "mountain-magic-heart-box",
+        "valentines-care-package",
+        "valentines-chocolate-pizza"
+      ],
+      "handles": [
+        "strawberry-bouquet",
+        "milk-chocolate-strawberry-bouquet",
+        "valentines-strawberries",
+        "mountain-magic-heart-box",
+        "valentines-care-package",
+        "valentines-chocolate-pizza",
+        "valentines-pretzel-stack",
+        "valentines-oreo-dozen"
+      ]
+    },
+    {
+      "id": "spring",
+      "months": [
+        3,
+        4
+      ],
+      "navLabel": "Easter & Mother's Day",
+      "title": "Easter & Mother's Day",
+      "headline": "Baskets, bunnies and berries for Mom.",
+      "intro": "Ready-to-go Easter baskets, a hollow bunny full of jelly beans, and strawberries dipped in Mom's favorite color.",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0512/7523/5512/products/SmallEasterBasket.jpg?v=1677682552",
+        "width": 1183,
+        "height": 1772,
+        "alt": "Small Easter basket filled with Sweet Shoppe favorites"
+      },
+      "spotlight": [
+        "small-easter-basket",
+        "large-hollow-bunny",
+        "easter-apple",
+        "mothers-day-strawberries"
+      ],
+      "handles": [
+        "small-easter-basket",
+        "large-hollow-bunny",
+        "easter-apple",
+        "easter-pretzel-stack",
+        "hatching-chick-oreos",
+        "mothers-day-strawberries",
+        "mothers-day-strawberries-dozen",
+        "mom-oreo-pack"
+      ]
+    },
+    {
+      "id": "graduation",
+      "months": [
+        5,
+        6
+      ],
+      "navLabel": "Graduation",
+      "title": "Graduation season",
+      "headline": "Put your grad on a cookie.",
+      "intro": "Custom photo Oreos for parties and gifts, plus strawberries and treats for the open house table.",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0512/7523/5512/files/IMG_1617.jpg?v=1712679281",
+        "width": 2781,
+        "height": 2781,
+        "alt": "Chocolate covered Oreos printed with a graduate's photo"
+      },
+      "spotlight": [
+        "custom-photo-oreos",
+        "milk-chocolate-strawberries",
+        "mothers-day-strawberries",
+        "triple-chocolate-pretzel-rod"
+      ],
+      "handles": [
+        "custom-photo-oreos",
+        "milk-chocolate-strawberries",
+        "dark-chocolate-strawberries",
+        "mothers-day-strawberries",
+        "mothers-day-strawberries-dozen",
+        "triple-chocolate-pretzel-rod",
+        "assorted-chocolate-box"
+      ]
+    },
+    {
+      "id": "summer",
+      "months": [
+        7,
+        8
+      ],
+      "navLabel": "Summer Favorites",
+      "title": "Summer favorites",
+      "headline": "Caramel apples, all year long.",
+      "intro": "Our apples aren't just for fall. Pick up a few, send a care package, or start the Club before the season rush.",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0512/7523/5512/files/Apples-Colllection-MFSS.jpg?v=1619751810",
+        "width": 1400,
+        "height": 640,
+        "alt": "A row of gourmet caramel apples"
+      },
+      "spotlight": [
+        "i-like-apple-pie",
+        "caramel-apple-club",
+        "milk-chocolate-strawberries",
+        "mountain-magic-bites"
+      ],
+      "handles": [
+        "i-like-apple-pie",
+        "triple-chocolate",
+        "caramel-apple-club",
+        "milk-chocolate-strawberries",
+        "mountain-magic-bites",
+        "happy-birthday-care-package"
+      ]
+    }
+  ]
+}
