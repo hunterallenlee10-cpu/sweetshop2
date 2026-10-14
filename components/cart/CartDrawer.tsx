@@ -25,9 +25,6 @@ export function CartDrawer() {
 
   return (
     <>
-      <p className="sr-only" role="status" aria-live="polite">
-        {cart.announcement}
-      </p>
       <dialog
         ref={ref}
         aria-labelledby="cart-title"

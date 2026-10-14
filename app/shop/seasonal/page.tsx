@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { seasons, getProducts } from "@/lib/catalog";
+import { seasons, getSeason, getProducts } from "@/lib/catalog";
+import { currentSeasonId } from "@/lib/season-now";
 import { SEASON_LABELS } from "@/lib/nav";
 import { ProductCard } from "@/components/product/ProductCard";
 import { Container, Breadcrumbs } from "@/components/ui";
@@ -13,12 +14,13 @@ export const metadata: Metadata = {
   alternates: { canonical: "/shop/seasonal" },
 };
 
-/** The current season is picked by date before first paint (html[data-season]); every season is prerendered. */
-export default function SeasonalPage() {
+/** The current season comes from an hourly-revalidated cache, so the page is static and flips on the first of the month. */
+export default async function SeasonalPage() {
+  const current = getSeason(await currentSeasonId());
   return (
     <>
-      {seasons.map((s) => (
-        <div key={s.id} data-season-only={s.id}>
+      {[current].map((s) => (
+        <div key={s.id}>
           <section className="on-dark bg-cocoa-900 text-cream-50">
             <Container className="grid gap-10 py-12 lg:grid-cols-12 lg:items-center lg:py-16">
               <div className="lg:col-span-6">

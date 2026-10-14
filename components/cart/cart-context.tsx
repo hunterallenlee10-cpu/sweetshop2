@@ -163,7 +163,15 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
     };
   }, [state, ready, isOpen, add, announcement]);
 
-  return <CartContext.Provider value={value}>{children}</CartContext.Provider>;
+  return (
+    <CartContext.Provider value={value}>
+      {children}
+      {/* always mounted, so additions are announced even before the lazy drawer loads */}
+      <p className="sr-only" role="status" aria-live="polite">
+        {announcement}
+      </p>
+    </CartContext.Provider>
+  );
 }
 
 export function useCart() {

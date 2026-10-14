@@ -32,6 +32,9 @@ const nextConfig: NextConfig = {
   },
   images: {
     formats: ["image/avif", "image/webp"],
+    // A shorter width ladder keeps every srcSet (and the RSC payload that repeats it) small.
+    deviceSizes: [640, 828, 1200, 1920],
+    imageSizes: [96, 160, 256, 384],
     qualities: [70, 75, 85],
     remotePatterns: [
       { protocol: "https", hostname: "cdn.shopify.com", pathname: "/s/files/**" },

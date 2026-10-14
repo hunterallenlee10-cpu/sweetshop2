@@ -5,7 +5,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { MobileBar } from "@/components/layout/MobileBar";
 import { CartProvider } from "@/components/cart/cart-context";
-import { CartDrawer } from "@/components/cart/CartDrawer";
+import { LazyCartDrawer } from "@/components/cart/LazyCartDrawer";
 import { JsonLd, localBusinessLd } from "@/components/JsonLd";
 import { seasons } from "@/lib/catalog";
 import { site, SITE_URL, NOINDEX } from "@/lib/site";
@@ -71,7 +71,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           </main>
           <Footer />
           <MobileBar tel={site.phone.tel} />
-          <CartDrawer />
+          <LazyCartDrawer />
         </CartProvider>
         <div className="grain" aria-hidden />
         <JsonLd data={localBusinessLd()} />

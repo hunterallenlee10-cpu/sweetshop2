@@ -64,7 +64,7 @@ export function VisitBlock({ headingLevel = "h2" }: { headingLevel?: "h1" | "h2"
           </span>
         </address>
         <div className="mt-8 rounded-[var(--radius-card)] bg-cream-100 p-6">
-          <h3 className="mb-4 text-2xl">Hours</h3>
+          {H === "h1" ? <h2 className="mb-4 text-2xl">Hours</h2> : <h3 className="mb-4 text-2xl">Hours</h3>}
           <HoursList />
           <p className="mt-4 text-sm text-cocoa-700">{site.hoursNote} Call ahead around holidays.</p>
         </div>
