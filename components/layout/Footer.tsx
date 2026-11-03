@@ -115,6 +115,10 @@ export function Footer() {
           </p>
           <p>Redesign preview. Checkout runs on the shop&apos;s current Shopify store.</p>
         </div>
+        <p className="mx-auto -mt-4 max-w-[1400px] px-5 pb-6 text-sm text-cream-100/80 sm:px-6 lg:px-8">
+          Website by{" "}
+          <a href="https://www.leeenterprisesunlimited.com/" target="_blank" rel="noopener" className="transition-colors hover:text-caramel-400">Lee Enterprises Unlimited</a>
+        </p>
       </div>
     </footer>
   );
